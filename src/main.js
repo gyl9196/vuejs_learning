@@ -8,6 +8,7 @@ import fastClick from 'fastclick'
 import 'normalize.css'
 // 解决大分辨下的边框问题
 import './assets/style/border.css'
+import './assets/style/iconfont.css'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
