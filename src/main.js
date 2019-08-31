@@ -7,8 +7,8 @@ import fastClick from 'fastclick'
 // 解决css的reset问题, 保证每个机型的样式统一
 import 'normalize.css'
 // 解决大分辨下的边框问题
-import './assets/style/border.css'
-import './assets/style/iconfont.css'
+import './assets/styles/border.css'
+import './assets/styles/iconfont.css'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
