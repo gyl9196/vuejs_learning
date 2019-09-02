@@ -21,7 +21,9 @@ export default {
     return {
       swiperOption: {
         pagination: '.swiper-pagination',
-        loop: true
+        loop: true,
+        autoplay: 2000,
+        autoplayDisableOnInteraction: false
       },
       swiperList: [
         {
@@ -52,7 +54,7 @@ export default {
     overflow: hidden;
     width: 100%;
     height: 0;
-    padding-bottom: 31.25%;
+    padding-bottom: 30%;
     background: #eee;
     .swiper-image {
       width: 100%;
