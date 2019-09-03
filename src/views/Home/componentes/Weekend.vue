@@ -45,7 +45,6 @@ export default {
 @import '~@/assets/styles/mixin.scss';
 
   .title {
-    margin-top: 1rem;
     font-size: .8rem;
     line-height: 2rem;
     text-indent: .5rem;
