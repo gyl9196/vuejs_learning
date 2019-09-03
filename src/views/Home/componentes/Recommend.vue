@@ -59,9 +59,11 @@ export default {
       padding: .1rem;
     }
     .item-info {
+      // flex 用来排列一行元素的时候，功能强大，参看阮一峰flex教程
+      // http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
       flex: 1;
       padding-left: .5rem;
-      // 只有加上这个才会出现 ...
+      // 保证内容不超出外层容器(flex和min-width的技巧，保证内容超出外层容器)
       min-width: 0;
       .item-title {
         margin: 0;
