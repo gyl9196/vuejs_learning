@@ -91,7 +91,10 @@ export default {
   height: 0;
   padding-bottom: 50%;
 }
-.icon {
+
+.icons {
+  margin-top:.5rem;
+  .icon {
   position: relative;
   overflow: hidden;
   float: left;
@@ -125,4 +128,6 @@ export default {
     @include ellipsis()
   }
 }
+}
+
 </style>
